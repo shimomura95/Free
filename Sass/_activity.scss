@@ -1,0 +1,38 @@
+#activity {
+    padding: 40px 0;
+}
+
+.ac-title {
+    font-size: 30px;
+}
+
+.ac-item {
+    display: flex;
+}
+
+.ac-content {
+    padding: 20px;
+    width: 400px;
+}
+
+.license-title {
+    font-size: 20px;
+
+    &::after {
+        display: block;
+        width: 100%;
+        content: "";
+        border-top: 1px solid black;
+    }
+}
+
+.hobby-title {
+    font-size: 20px;
+
+    &::after {
+        display: block;
+        width: 100%;
+        content: "";
+        border-top: 1px solid black;
+    }
+}

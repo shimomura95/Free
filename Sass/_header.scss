@@ -2,12 +2,13 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
     background-color: black;
     color: white;
 
     nav {
         width: 30%;
+        padding-right: 10px;
 
         ul {
             display: flex;
@@ -21,4 +22,5 @@ header {
 .header-title {
     font-size: 32px;
     font-weight: bold;
+    padding-left: 10px;
 }

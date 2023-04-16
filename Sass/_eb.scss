@@ -1,10 +1,20 @@
 #eb {
-    margin-left: 20%;
     padding: 40px 0;
+}
+
+.eb-inner {
+    width: 600px;
 }
 
 .eb-title {
     font-size: 30px;
+
+    &::after {
+        display: block;
+        width: 60px;
+        content: "";
+        border-top: 1px solid black;
+    }
 }
 
 .eb-text {

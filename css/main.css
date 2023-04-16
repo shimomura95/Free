@@ -1,13 +1,22 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin-left: 20%;
+}
+
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
   background-color: black;
   color: white;
 }
 header nav {
   width: 30%;
+  padding-right: 10px;
 }
 header nav ul {
   display: flex;
@@ -19,11 +28,12 @@ header nav ul {
 .header-title {
   font-size: 32px;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .intro-wrap {
   display: flex;
-  margin: 40px 0 0 20%;
+  margin: 40px 0 0;
 }
 .intro-wrap_img {
   width: 200px;
@@ -61,12 +71,21 @@ header nav ul {
 }
 
 #eb {
-  margin-left: 20%;
   padding: 40px 0;
+}
+
+.eb-inner {
+  width: 600px;
 }
 
 .eb-title {
   font-size: 30px;
+}
+.eb-title::after {
+  display: block;
+  width: 60px;
+  content: "";
+  border-top: 1px solid black;
 }
 
 .eb-text {
@@ -77,8 +96,44 @@ header nav ul {
   margin-left: 20px;
 }
 
+#activity {
+  padding: 40px 0;
+}
+
+.ac-title {
+  font-size: 30px;
+}
+
+.ac-item {
+  display: flex;
+}
+
+.ac-content {
+  padding: 20px;
+  width: 400px;
+}
+
+.license-title {
+  font-size: 20px;
+}
+.license-title::after {
+  display: block;
+  width: 100%;
+  content: "";
+  border-top: 1px solid black;
+}
+
+.hobby-title {
+  font-size: 20px;
+}
+.hobby-title::after {
+  display: block;
+  width: 100%;
+  content: "";
+  border-top: 1px solid black;
+}
+
 #pr {
-  margin-left: 20%;
   padding: 40px 0;
 }
 
@@ -100,7 +155,6 @@ header nav ul {
 }
 
 #effort {
-  margin-left: 20%;
   padding: 40px 0;
 }
 
