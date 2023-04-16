@@ -1,0 +1,23 @@
+#effort {
+    margin-left: 20%;
+    padding: 40px 0;
+}
+
+.effort-title {
+    font-size: 30px;
+}
+
+.effort-text {
+    width: 80%;
+
+    &_title {
+        font-size: 20px;
+
+        &::after {
+            display: block;
+            width: 100%;
+            content: "";
+            border-top: 1px solid black;
+        }
+    }
+}

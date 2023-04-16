@@ -1,0 +1,17 @@
+#eb {
+    margin-left: 20%;
+    padding: 40px 0;
+}
+
+.eb-title {
+    font-size: 30px;
+}
+
+.eb-text {
+    display: flex;
+    font-size: 20px;
+
+    &_s {
+        margin-left: 20px;
+    }
+}
