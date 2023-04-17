@@ -175,6 +175,49 @@ header nav ul {
   border-top: 1px solid black;
 }
 
+#private {
+  padding: 40px 0;
+}
+
+.pv-title {
+  font-size: 30px;
+}
+
+.pv-content {
+  padding: 20px;
+  width: 600px;
+}
+
+.like-title {
+  font-size: 20px;
+}
+.like-title::after {
+  display: block;
+  width: 100%;
+  content: "";
+  border-top: 1px solid black;
+}
+
+.into-title {
+  font-size: 20px;
+}
+.into-title::after {
+  display: block;
+  width: 100%;
+  content: "";
+  border-top: 1px solid black;
+}
+
+.worries-title {
+  font-size: 20px;
+}
+.worries-title::after {
+  display: block;
+  width: 100%;
+  content: "";
+  border-top: 1px solid black;
+}
+
 footer {
   height: 45px;
   line-height: 45px;
